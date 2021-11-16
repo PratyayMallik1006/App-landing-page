@@ -1,0 +1,157 @@
+#title{
+    background-color: #393E46;
+}
+
+body{
+    color: #222831;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #EEEEEE;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+p{
+    color: #8f8f8f;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+    color: #EEEEEE;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+
+}
+.apple{
+    background-color: #0092CA;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 350px;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+/* Features */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #0092A8;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #00B4FD;
+}
+
+#shop{
+    text-align: center;
+    background-color:  #0092A8;
+    color:#EEEEEE
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.shop-image{
+    border-radius: 100%;
+    width: 550px;
+    height: 550px;
+    
+}
+#press
+{
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    line-height: 1px;
+    opacity: .5;
+    padding: 2px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    opacity: 1;
+}
+
+/* watch-news */
+#watch-news{
+    padding: 100px;
+    text-align: center;
+}
+.news-col{
+    padding: 3% 2%;;
+}
+/* CAT-section*/
+#cta{
+    background-color: #0092CA;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+/* Footer Section */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #222831;
+}
+.social-icon{
+    color: #EEEEEE;
+    margin: 20px 10px;
+}
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
